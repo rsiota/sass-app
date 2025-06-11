@@ -1,0 +1,10 @@
+body {
+    background: white;
+    padding: 50px;
+}
+
+.cop {
+    &__title {
+        text-transform: uppercase;
+    }
+}
