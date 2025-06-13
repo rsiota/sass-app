@@ -1,15 +1,30 @@
 .cop {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	width: 100vw;
+	padding-left: 50px;
+	padding-right: 50px;
+	min-height: 100vh;
 
 	&__inner {
-		max-width: 450px;
-		border: 1px solid rgba(255, 255, 255, 0.3);
+		max-width: 1200px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+
+	}
+
+	&__card {
+		border: 1px solid rgba(0, 0, 0, 0.3);
+		max-width: 400px;
+		border-radius: 8px;
+		padding: 20px;
+		width: 100%;
 	}
 
 	&__title {
-		text-transform: uppercase;
 		margin: 0;
+		font-size: 20px;
 	}
 }
