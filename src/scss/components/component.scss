@@ -1,4 +1,13 @@
 .cop {
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+
+	&__inner {
+		max-width: 450px;
+		border: 1px solid rgba(255, 255, 255, 0.3);
+	}
+
 	&__title {
 		text-transform: uppercase;
 		margin: 0;
