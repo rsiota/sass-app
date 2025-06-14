@@ -1,10 +1,12 @@
+@use '../mixins/functions' as *;
+
 .cop {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: -(50, 20);
+	padding-right: -(50, 20);
 	min-height: 100vh;
 
 	&__inner {
@@ -12,7 +14,6 @@
 		width: 100%;
 		display: flex;
 		justify-content: center;
-
 	}
 
 	&__card {
