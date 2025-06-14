@@ -5,8 +5,8 @@
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
-	padding-left: -(50, 20);
-	padding-right: -(50, 20);
+	padding-left: r(50, 20);
+	padding-right: r(50, 20);
 	min-height: 100vh;
 
 	&__inner {

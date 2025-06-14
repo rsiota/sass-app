@@ -1,3 +1,3 @@
-@function -($desktop, $mobile) {
+@function r($desktop, $mobile) {
     @return clamp(#{$mobile}px, calc(#{calc($mobile/16)}rem + (#{$desktop - $mobile}) * ((100vw - 375px) / (1920 - 375))), #{$desktop}px);
 }
